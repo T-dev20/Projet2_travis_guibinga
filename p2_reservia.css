@@ -72,3 +72,7 @@ nav a {
   font-size: large;
   font-weight: bold;
 }
+
+img[alt="icone_map"] {
+  width: 10px;
+}
