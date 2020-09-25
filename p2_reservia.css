@@ -32,17 +32,25 @@ a:visited {
   font-style: normal;
 }
 
+nav {
+  font-size: 14px;
+  margin-top: -22px;
+}
+
+header img {
+  margin-top: -22px;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
 }
 
-nav li {
-  margin-right: 35%;
-}
-
 nav a {
   color: #0065fc;
+  display: block;
+  padding: 40px 15px;
+  border-top: 2px solid transparent;
 }
 
 .heberg_acti {
@@ -52,8 +60,8 @@ nav a {
 
 .heberg_acti:hover {
   color: #0065fc;
+  padding-top: ;
   border-top: solid 2px #0065fc;
-  padding-top: 22px;
 }
 
 .sinscrire {
