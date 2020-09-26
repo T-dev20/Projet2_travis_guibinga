@@ -148,8 +148,18 @@ input:focus {
   transition: 5ms;
 }
 
-.filtre img {
-  width: 8px;
+/*.filtre img {
+  width: 15px;
+  color: #0065fc;
   border: 1px solid #0065fc;
   border-radius: 100%;
 }
+
+img[alt="icône_argent"] {
+  width: 15px;
+  padding: 9px;
+  margin-right: 10px;
+  border: 1px solid #0065fc;
+  border-radius: 100%;
+  color: #0065fc;
+}*/
