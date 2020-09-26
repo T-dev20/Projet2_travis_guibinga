@@ -132,7 +132,7 @@ input:focus {
   padding: 7.5px 20px 0px 20px;
   font-size: small;
   cursor: pointer;
-  border: solid 1px #f2f2f2;
+  border: solid 2px #f2f2f2;
   border-radius: 20px 20px;
 }
 
@@ -148,6 +148,15 @@ input:focus {
   transition: 5ms;
 }
 
+.boucle {
+  margin-left: -20px;
+  margin-right: 10px;
+  color: #0065fc;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  color: #0065fc;
+}
 /*.filtre img {
   width: 15px;
   color: #0065fc;
