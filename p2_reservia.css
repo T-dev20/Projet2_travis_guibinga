@@ -60,7 +60,6 @@ nav a {
 
 .heberg_acti:hover {
   color: #0065fc;
-  padding-top: ;
   border-top: solid 2px #0065fc;
 }
 
@@ -86,7 +85,6 @@ img[alt="icone_map"] {
   border-radius: 9px 0px 0px 9px;
   padding: 4px 9px;
   background-color: #f2f2f2;
-  margin-t;
 }
 
 input[type="text"] {
@@ -113,6 +111,26 @@ input:focus {
   outline: none;
 }
 
-.filtre, .filtre ul{
+.filtre {
+  margin-top: 15px;
+  border: black 1px solid;
+}
+
+.filtre,
+.filtre ul {
   display: flex;
+}
+
+.filtre li {
+  margin-right: 35px;
+  font-size: small;
+  cursor: pointer;
+  border: dotted 1px green;
+}
+
+.filtre a {
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+  margin: auto;
 }
