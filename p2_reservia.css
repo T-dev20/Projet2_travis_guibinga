@@ -114,6 +114,12 @@ input:focus {
 .filtre {
   margin-top: 15px;
   border: black 1px solid;
+  height: 65px;
+}
+
+.filtre p {
+  margin-top: 22px;
+  font-weight: bold;
 }
 
 .filtre,
@@ -123,14 +129,27 @@ input:focus {
 
 .filtre li {
   margin-right: 35px;
+  padding: 7.5px 20px 0px 20px;
   font-size: small;
   cursor: pointer;
-  border: dotted 1px green;
+  border: solid 1px #f2f2f2;
+  border-radius: 20px 20px;
 }
 
 .filtre a {
   color: black;
   opacity: 0.8;
   font-weight: bold;
-  margin: auto;
+  text-align: center;
+}
+
+.filtre li:hover {
+  background-color: #f2f2f2;
+  transition: 5ms;
+}
+
+.filtre img {
+  width: 8px;
+  border: 1px solid #0065fc;
+  border-radius: 100%;
 }
