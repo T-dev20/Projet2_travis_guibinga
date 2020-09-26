@@ -109,6 +109,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+input:focus {
+  outline: none;
+}
+
 .filtre, .filtre ul{
   display: flex;
 }
