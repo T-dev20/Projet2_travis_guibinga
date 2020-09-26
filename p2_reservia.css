@@ -73,6 +73,42 @@ nav a {
   font-weight: bold;
 }
 
+.box {
+  display: flex;
+  /*border: brown 1px dotted;*/
+  width: 35%;
+  height: 29.5px;
+}
+
 img[alt="icone_map"] {
-  width: 10px;
+  width: 8px;
+  border: 1px solid #f2f2f2;
+  border-radius: 9px 0px 0px 9px;
+  padding: 4px 9px;
+  background-color: #f2f2f2;
+  margin-t;
+}
+
+input[type="text"] {
+  height: 25.3px;
+  border: 1px solid #f2f2f2;
+  padding-left: 15px;
+  font-family: "Raleway";
+  font-weight: bolder;
+}
+
+input[type="submit"] {
+  height: 29.7px;
+  border: 1px solid #0065fc;
+  border-radius: 0px 9px 9px 0px;
+  color: white;
+  background-color: #0065fc;
+  padding: 5px 15px;
+  margin-left: -6px;
+  font-family: "Raleway";
+  cursor: pointer;
+}
+
+.filtre, .filtre ul{
+  display: flex;
 }
