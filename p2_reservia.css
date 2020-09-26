@@ -113,7 +113,6 @@ input:focus {
 
 .filtre {
   margin-top: 15px;
-  border: black 1px solid;
   height: 65px;
 }
 
@@ -128,7 +127,7 @@ input:focus {
 }
 
 .filtre li {
-  margin-right: 35px;
+  margin-right: 25px;
   padding: 7.5px 20px 0px 20px;
   font-size: small;
   cursor: pointer;
@@ -144,19 +143,60 @@ input:focus {
 }
 
 .filtre li:hover {
-  background-color: #f2f2f2;
-  transition: 5ms;
+  background-color: #0065fc;
+  transition: 10ms;
 }
 
-.boucle {
-  margin-left: -20px;
+.filtre a:hover {
+  color: white;
+  font-weight: normal;
+  transition: 10ms;
+}
+
+.icone_filtre_eco {
+  margin-left: -22px;
   margin-right: 10px;
   color: #0065fc;
-  padding: 7px 10px;
+  padding: 8px 8px 7px;
   border: 1px solid transparent;
   border-radius: 100%;
   color: #0065fc;
+  background-color: #deebff;
 }
+
+.icone_filtre_fam {
+  margin-left: -22px;
+  margin-right: 10px;
+  color: #0065fc;
+  padding: 8px 10px 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.icone_filtre_Rom {
+  margin-left: -22px;
+  margin-right: 10px;
+  color: #0065fc;
+  padding: 8px 10px 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.icone_filtre_anim {
+  margin-left: -22px;
+  margin-right: 10px;
+  color: #0065fc;
+  padding: 8px 9px 7px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
 /*.filtre img {
   width: 15px;
   color: #0065fc;
