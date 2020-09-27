@@ -223,7 +223,6 @@ input:focus {
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 15px;
-  height: auto;
   width: 65%;
   height: 635px;
 }
@@ -255,7 +254,7 @@ input:focus {
   border-radius: 15px;
 }
 
-img[alt="photo_laCannebière"] {
+.article_hebergement img {
   width: 96.2%;
   height: 55%;
   border-radius: 15px 15px 0px 0px;
@@ -297,4 +296,12 @@ img[alt="photo_laCannebière"] {
 
 .etoiles_grises {
   color: #f2f2f2;
+}
+
+.aside_hebergement {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 30%;
+  height: 635px;
 }
