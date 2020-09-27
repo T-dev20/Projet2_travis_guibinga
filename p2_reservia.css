@@ -214,33 +214,87 @@ input:focus {
   border-radius: 100%;
 }
 
-#section_hebergement {
-  border: 1px solid blue;
+#section1 {
   display: flex;
   justify-content: space-between;
-  height: auto;
 }
 
-#section_hebergement h1 {
+#section_hebergement {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  height: auto;
+  width: 65%;
+  height: 635px;
+}
+
+#section_hebergement > h1 {
   font-weight: bold;
-  font-size: medium;
-  height: 25px;
-  width: 200px;
-  background-color: blueviolet;
+  font-size: x-large;
+  width: 40%;
+  margin-top: 45px;
+  margin-left: 35px;
 }
 
 .article_hebergement {
-  border: blue 1px dotted;
-  width: 61%;
-  height: auto;
+  /*border: blue 1px dotted;*/
+  width: 95%;
+  height: 500px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  justify-content: center;
-  margin-top: 55px;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 1.5em;
+  grid-auto-rows: 12.5em;
+  margin-left: 35px;
+  margin-top: 25px;
 }
 
 .article_hebergement div {
-  background-color: blueviolet;
-  width: 300px;
+  background-color: white;
+  width: 250px;
   height: 200px;
+  border-radius: 15px;
+}
+
+img[alt="photo_laCannebière"] {
+  width: 96.2%;
+  height: 55%;
+  border-radius: 15px 15px 0px 0px;
+  margin: 5px 0px 0px 5px;
+}
+
+.article_hebergement h2 {
+  font-size: medium;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.article_hebergement div p {
+  font-size: smaller;
+  opacity: 0.8;
+  margin-top: -8px;
+  margin-bottom: 3px;
+  margin-left: 20px;
+}
+
+.afficherPlus {
+  font-size: medium;
+  font-weight: bold;
+  height: 35px;
+}
+
+.article_hebergement span {
+  font-size: x-small;
+}
+
+.bloc_etoiles {
+  margin-left: 20px;
+}
+
+.etoiles_bleues {
+  color: #0065fc;
+}
+
+.etoiles_grises {
+  color: #f2f2f2;
 }
