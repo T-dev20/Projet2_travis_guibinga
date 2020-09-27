@@ -193,12 +193,23 @@ input:focus {
   border-radius: 100%;
 }
 
+.plusDe500Logem {
+  /*border: 1px solid beige;*/
+  height: 25px;
+  display: flex;
+}
+
+.text_plusDe500 {
+  font-style: normal;
+  margin-top: 3px;
+}
+
 .ico_info {
-  width: 5px;
+  font-size: 8px;
   margin-right: 10px;
   color: #0065fc;
-  background-color: #deebff;
-  padding: ;
-  border: 1px solid transparent;
+  background-color: white;
+  padding: 5px 8px;
+  border: solid 3px #f2f2f2;
   border-radius: 100%;
 }
