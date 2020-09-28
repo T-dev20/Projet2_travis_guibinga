@@ -362,6 +362,18 @@ input:focus {
   margin: 5px 0px 0px 5px;
 }
 
+.bloc_etoiles_aside span {
+  font-size: x-small;
+  float: right;
+}
+
+/*étoiles de l'aside*/
+.bloc_etoiles_aside {
+  float: right;
+  margin-right: 121.5px;
+  margin-top: -28px;
+}
+
 .ico_chartLine {
   float: right;
   font-size: larger;
