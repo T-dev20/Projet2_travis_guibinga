@@ -386,8 +386,8 @@ input:focus {
   margin-top: 45px;
 }
 
+/*toute la section activité*/
 #divs_activites {
-  border: aqua 1px solid;
   height: auto;
   display: grid;
   justify-content: center;
@@ -466,4 +466,23 @@ input:focus {
 #divs_activites img {
   width: 100%;
   border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+footer div {
+  margin-left: -165px;
+}
+
+footer div ul {
+  margin-left: -38px;
+}
+
+footer div li {
+  margin-top: 10px;
 }
