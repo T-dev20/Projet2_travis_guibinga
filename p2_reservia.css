@@ -306,7 +306,7 @@ input:focus {
   height: 635px;
 }
 
-/*conténeur des 3 div*/
+/*conténeur-aside des 3 div*/
 #aside_content {
   display: flex;
   flex-direction: column;
@@ -379,4 +379,59 @@ input:focus {
   font-size: larger;
   margin-top: -23px;
   margin-right: 35px;
+}
+
+#section_activité h1 {
+  font-size: large;
+  margin-top: 45px;
+}
+
+#divs_activites {
+  border: aqua 1px solid;
+  height: 446px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
+}
+
+#divs_activites h2 {
+  font-size: small;
+}
+
+#divs_activites div {
+  border-radius: 15px;
+  box-shadow: 1px 3px 6px #aca3a3;
+}
+
+.activite1 {
+  background-color: blue;
+  grid-row: 1/3;
+}
+
+.activite2 {
+  background-color: yellowgreen;
+}
+
+.activite3 {
+  background-color: green;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.activite4 {
+  grid-column: 3;
+  grid-row: 1/3;
+  background-color: violet;
+}
+
+.activite5 {
+  background-color: gray;
+}
+
+.activite6 {
+  grid-column: 4;
+  background-color: tomato;
 }
