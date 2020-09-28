@@ -302,6 +302,69 @@ input:focus {
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 30%;
+  width: 32%;
   height: 635px;
+}
+
+#aside_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: -5px;
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+}
+
+/*blocs contenant les images*/
+.blocs_aside {
+  background-color: white;
+  width: 83.5%;
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 1.5em;
+}
+
+.aside_hebergement h1 {
+  width: 60%;
+  margin-left: 35px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.aside_hebergement div {
+  margin-left: 35px;
+}
+
+.aside_hebergement h2 {
+  font-size: medium;
+  font-weight: bolder;
+  float: right;
+  margin-right: 55px;
+}
+
+.aside_hebergement div p {
+  font-size: smaller;
+  opacity: 0.8;
+  margin-top: -85px;
+  margin-right: 51px;
+  float: right;
+}
+
+.strongEuroAside {
+  margin-right: 9.3px;
+}
+
+.blocs_aside img {
+  width: 42%;
+  height: 93.2%;
+  border-radius: 15px 0px 0px 15px;
+  margin: 5px 0px 0px 5px;
+}
+
+.ico_chartLine {
+  float: right;
+  font-size: larger;
+  margin-top: -23px;
+  margin-right: 35px;
 }
