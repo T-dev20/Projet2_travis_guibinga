@@ -257,6 +257,7 @@ input:focus {
   height: 55%;
   border-radius: 15px 15px 0px 0px;
   margin: 5px 0px 0px 5px;
+  object-fit: cover;
 }
 
 .article_hebergement h2 {
@@ -359,6 +360,7 @@ input:focus {
   height: 93.2%;
   border-radius: 15px 0px 0px 15px;
   margin: 5px 0px 0px 5px;
+  object-fit: cover;
 }
 
 .bloc_etoiles_aside span {
@@ -460,6 +462,7 @@ input:focus {
 #divs_activites img {
   width: 100%;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 footer {
