@@ -305,10 +305,9 @@ input:focus {
 }
 
 .text_lesPlusPop {
-  font-size: small;
-  background-color: rebeccapurple;
+  font-size: x-large;
   width: 60%;
-  margin-left: 15px;
+  margin-left: 35px;
   margin-top: 45px;
   margin-bottom: 0px;
 }
