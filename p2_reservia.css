@@ -227,12 +227,10 @@ input:focus {
   height: 635px;
 }
 
-#section_hebergement + h2 {
-  font-weight: bold;
+.activite-hebergement_titles {
   font-size: x-large;
-  width: 40%;
   margin-top: 45px;
-  margin-left: 35px;
+  margin-left: 37px;
 }
 
 .article_hebergement {
@@ -379,12 +377,6 @@ input:focus {
   font-size: larger;
   margin-top: -23px;
   margin-right: 35px;
-}
-
-.activite-hebergement_titles {
-  font-size: x-large;
-  margin-top: 45px;
-  margin-left: 37px;
 }
 
 /*toute la section activité*/
