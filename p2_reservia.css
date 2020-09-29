@@ -81,7 +81,7 @@ nav a {
 
 img[alt="icone_map"] {
   width: 8px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   border-radius: 9px 0px 0px 9px;
   padding: 4px 9px;
   background-color: #f2f2f2;
@@ -97,7 +97,7 @@ input[type="text"] {
 
 input[type="submit"] {
   height: 29.7px;
-  border: 1px solid #0065fc;
+  border: 1px solid transparent;
   border-radius: 0px 9px 9px 0px;
   color: white;
   background-color: #0065fc;
@@ -220,19 +220,17 @@ input:focus {
 }
 
 #section_hebergement {
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 65%;
   height: 635px;
 }
 
-#section_hebergement > h1 {
-  font-weight: bold;
+.activite-hebergement_titles {
   font-size: x-large;
-  width: 40%;
   margin-top: 45px;
-  margin-left: 35px;
+  margin-left: 37px;
 }
 
 .article_hebergement {
@@ -299,11 +297,19 @@ input:focus {
 }
 
 .aside_hebergement {
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 32%;
   height: 635px;
+}
+
+.text_lesPlusPop {
+  font-size: x-large;
+  width: 60%;
+  margin-left: 35px;
+  margin-top: 45px;
+  margin-bottom: 0px;
 }
 
 /*conténeur-aside des 3 div*/
@@ -325,18 +331,11 @@ input:focus {
   margin-top: 1.5em;
 }
 
-.aside_hebergement h1 {
-  width: 60%;
-  margin-left: 35px;
-  margin-top: 45px;
-  margin-bottom: 0px;
-}
-
 .aside_hebergement div {
   margin-left: 35px;
 }
 
-.aside_hebergement h2 {
+.blocs_aside h2 {
   font-size: medium;
   font-weight: bolder;
   float: right;
@@ -379,11 +378,6 @@ input:focus {
   font-size: larger;
   margin-top: -23px;
   margin-right: 35px;
-}
-
-#section_activité h1 {
-  font-size: large;
-  margin-top: 45px;
 }
 
 /*toute la section activité*/
