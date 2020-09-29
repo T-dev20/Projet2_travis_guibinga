@@ -381,9 +381,10 @@ input:focus {
   margin-right: 35px;
 }
 
-#section_activité + h2 {
-  font-size: large;
+.activite-hebergement_titles {
+  font-size: x-large;
   margin-top: 45px;
+  margin-left: 37px;
 }
 
 /*toute la section activité*/
