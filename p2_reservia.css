@@ -304,9 +304,11 @@ input:focus {
   height: 635px;
 }
 
-.aside_hebergement + h2 {
+.text_lesPlusPop {
+  font-size: small;
+  background-color: rebeccapurple;
   width: 60%;
-  margin-left: 35px;
+  margin-left: 15px;
   margin-top: 45px;
   margin-bottom: 0px;
 }
