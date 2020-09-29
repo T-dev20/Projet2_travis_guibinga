@@ -227,7 +227,7 @@ input:focus {
   height: 635px;
 }
 
-#section_hebergement > h1 {
+#section_hebergement + h2 {
   font-weight: bold;
   font-size: x-large;
   width: 40%;
@@ -306,6 +306,13 @@ input:focus {
   height: 635px;
 }
 
+.aside_hebergement + h2 {
+  width: 60%;
+  margin-left: 35px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
 /*conténeur-aside des 3 div*/
 #aside_content {
   display: flex;
@@ -323,13 +330,6 @@ input:focus {
   height: 150px;
   border-radius: 15px;
   margin-top: 1.5em;
-}
-
-.aside_hebergement h1 {
-  width: 60%;
-  margin-left: 35px;
-  margin-top: 45px;
-  margin-bottom: 0px;
 }
 
 .aside_hebergement div {
@@ -381,7 +381,7 @@ input:focus {
   margin-right: 35px;
 }
 
-#section_activité h1 {
+#section_activité + h2 {
   font-size: large;
   margin-top: 45px;
 }
