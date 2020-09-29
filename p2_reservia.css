@@ -81,7 +81,7 @@ nav a {
 
 img[alt="icone_map"] {
   width: 8px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   border-radius: 9px 0px 0px 9px;
   padding: 4px 9px;
   background-color: #f2f2f2;
@@ -97,7 +97,7 @@ input[type="text"] {
 
 input[type="submit"] {
   height: 29.7px;
-  border: 1px solid #0065fc;
+  border: 1px solid transparent;
   border-radius: 0px 9px 9px 0px;
   color: white;
   background-color: #0065fc;
@@ -220,7 +220,7 @@ input:focus {
 }
 
 #section_hebergement {
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 65%;
@@ -297,7 +297,7 @@ input:focus {
 }
 
 .aside_hebergement {
-  border: 1px solid #f2f2f2;
+  border: 1px solid transparent;
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 32%;
