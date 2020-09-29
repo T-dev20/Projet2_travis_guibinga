@@ -28,8 +28,8 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  font-style: normal;
+nav a:visited {
+  color: none;
 }
 
 nav {
@@ -396,6 +396,7 @@ input:focus {
 #divs_activites h2 {
   font-size: small;
   margin-left: 20px;
+  color: black;
 }
 
 #divs_activites div {
@@ -482,4 +483,10 @@ footer div ul {
 
 footer div li {
   margin-top: 10px;
+}
+
+#section1 a:visited,
+.aside_content a:visited,
+footer a:visited {
+  color: black;
 }
