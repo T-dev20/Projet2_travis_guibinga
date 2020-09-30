@@ -254,6 +254,7 @@ input:focus {
   border-radius: 15px;
 }
 
+/*effets au survol sur les contenus d'img*/
 .article_hebergement div::after {
   content: " ";
   position: absolute;
@@ -271,6 +272,31 @@ input:focus {
 
 .article_hebergement div:hover::after {
   transform: scaleY(1);
+  transition: 350ms;
+}
+
+.blocs_aside {
+  position: relative;
+  z-index: 1;
+}
+
+.blocs_aside::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 200ms;
+  border-radius: 15px;
+  background-color: #deebff;
+}
+
+.blocs_aside:hover::after {
+  transform: scaleX(1); /*l'effet rempli tout le bloc horizontalement*/
   transition: 350ms;
 }
 
