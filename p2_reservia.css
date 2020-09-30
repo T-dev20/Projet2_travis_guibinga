@@ -28,8 +28,8 @@ a:link {
   text-decoration: none;
 }
 
-nav a:visited {
-  color: none;
+.sinscrire:visited {
+  color: #0065fc;
 }
 
 nav {
