@@ -53,6 +53,7 @@ nav a {
   border-top: 2px solid transparent;
 }
 
+/*menu principal : onglets hébergement et activités*/
 .heberg_acti {
   color: black;
   opacity: 0.8;
@@ -252,6 +253,7 @@ input:focus {
   width: 250px;
   height: 200px;
   border-radius: 15px;
+  color: black;
 }
 
 /*effets au survol sur les contenus d'img*/
@@ -378,6 +380,7 @@ input:focus {
   height: 150px;
   border-radius: 15px;
   margin-top: 1.5em;
+  color: black;
 }
 
 .aside_hebergement div {
@@ -531,6 +534,10 @@ footer div ul {
 
 footer div li {
   margin-top: 10px;
+}
+
+footer a {
+  color: black;
 }
 
 #section1 a:visited,
