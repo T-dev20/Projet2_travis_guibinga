@@ -32,6 +32,12 @@ a:link {
   color: #0065fc;
 }
 
+#section1 a:visited,
+.aside_content a:visited,
+footer a:visited {
+  color: black;
+}
+
 nav {
   font-size: 14px;
   margin-top: -22px;
@@ -537,11 +543,5 @@ footer div li {
 }
 
 footer a {
-  color: black;
-}
-
-#section1 a:visited,
-.aside_content a:visited,
-footer a:visited {
   color: black;
 }
