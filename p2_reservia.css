@@ -23,14 +23,13 @@ body {
   }
 
   header {
-    display: flex;
-    justify-content: space-between;
     border: 0.5px solid blue;
     height: auto;
   }
 
   img[alt="logo_reservia"] {
     margin-top: 20px;
+    margin-bottom: 0px;
   }
 
   nav {
@@ -39,23 +38,58 @@ body {
   }
 
   /*menu principal : onglets hébergement et activités*/
-  .heberg_acti {
+  /*.heberg_acti {
     display: block;
-    position: relative;
+    position: absolute;
+    margin-left: -250px;
     font-size: medium;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 85px;
     background-color: blueviolet;
     color: black;
     opacity: 0.8;
     padding: 0px 35px 12px 35px;
-    width: 50%;
+    width: 35%;
     border-bottom: 2px solid transparent;
+  }*/
+
+  .heberg_acti {
+    padding: 0px 0px;
+    border-top: inherit;
+    border-bottom: 2px solid transparent;
+  }
+
+  .headMenu {
+    display: block;
+    position: absolute;
+    margin-left: -155.3px;
+    font-size: medium;
+    text-align: center;
+    margin-top: 95px;
+    padding: 0px 20px 5px 20px;
+    width: 40%;
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    margin-right: -55px;
+  }
+
+  .headMenuH {
+    display: block;
+    position: absolute;
+    margin-left: -535px;
+    font-size: medium;
+    text-align: center;
+    margin-top: 95px;
+    padding: 0px 20px 5px 20px;
+    width: 40%;
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    margin-right: -55px;
   }
 
   .heberg_acti:hover {
     color: #0065fc;
-    border-top: solid 2px #0065fc;
+    border-bottom: solid 2px #0065fc;
   }
 
   .sinscrire {
