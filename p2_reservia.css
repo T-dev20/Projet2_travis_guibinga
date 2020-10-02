@@ -16,7 +16,7 @@ body {
 }
 
 /*responsive smartphone*/
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   #pageprincipale {
     width: 380px;
     height: auto;
@@ -28,7 +28,7 @@ body {
   }
 
   img[alt="logo_reservia"] {
-    margin-top: 20px;
+    margin-top: 1px;
     margin-bottom: 0px;
   }
 
@@ -55,8 +55,7 @@ body {
 
   .heberg_acti {
     padding: 0px 0px;
-    border-top: inherit;
-    border-bottom: 2px solid transparent;
+    border-top: 0px;
   }
 
   .headMenu {
@@ -89,7 +88,7 @@ body {
 
   .heberg_acti:hover {
     color: #0065fc;
-    border-bottom: solid 2px #0065fc;
+    border-top: transparent 2px #0065fc;
   }
 
   .sinscrire {
