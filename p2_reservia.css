@@ -568,7 +568,7 @@ body {
     color: black;
     opacity: 0.8;
   }
-}
+} /*fin responsive-Smartphone*/
 
 header {
   display: flex;
@@ -598,8 +598,8 @@ nav {
   margin-top: -22px;
 }
 
-header img {
-  margin-top: -22px;
+header span {
+  margin-top: 17px;
 }
 
 nav ul {
