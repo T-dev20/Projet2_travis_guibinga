@@ -30,7 +30,7 @@ body {
   }
 
   img[alt="logo_reservia"] {
-    margin-top: -5px;
+    margin-top: 20px;
   }
 
   nav {
@@ -38,20 +38,19 @@ body {
     margin-top: -22px;
   }
 
-  nav a {
-    color: #0065fc;
-    display: block;
-    padding: 40px 15px;
-    border-top: 2px solid transparent;
-  }
-
   /*menu principal : onglets hébergement et activités*/
   .heberg_acti {
     display: block;
     position: relative;
-    margin-top: 55px;
+    font-size: medium;
+    text-align: center;
+    margin-top: 65px;
+    background-color: blueviolet;
     color: black;
     opacity: 0.8;
+    padding: 0px 35px 12px 35px;
+    width: 50%;
+    border-bottom: 2px solid transparent;
   }
 
   .heberg_acti:hover {
