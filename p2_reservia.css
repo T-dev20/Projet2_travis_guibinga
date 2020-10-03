@@ -73,8 +73,9 @@ body {
   }
 
   .h1_apres_logo {
-    margin-top: 75px;
-    font-size: medium;
+    margin-top: 85px;
+    margin-left: 35px;
+    width: 68%;
     font-weight: bold;
   }
 
@@ -83,6 +84,7 @@ body {
     /*border: brown 1px dotted;*/
     width: 35%;
     height: 29.5px;
+    margin-left: 35px;
   }
 
   img[alt="icone_map"] {
