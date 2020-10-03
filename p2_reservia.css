@@ -92,42 +92,49 @@ body {
 
   .box {
     display: flex;
+    width: auto;
     /*border: brown 1px dotted;*/
-    width: 35%;
-    height: 29.5px;
+    height: auto;
     margin-left: 35px;
   }
 
-  img[alt="icone_map"] {
-    width: 8px;
+  .box form {
+    display: flex;
+    width: auto;
+  }
+
+  .box img[alt="icone_map"] {
+    width: 10px;
     border: 1px solid transparent;
     border-radius: 9px 0px 0px 9px;
-    padding: 4px 9px;
+    padding: 8px 9px;
     background-color: #f2f2f2;
   }
 
   input[type="text"] {
-    height: 25.3px;
-    border: 1px solid #f2f2f2;
+    height: 55px;
+    width: 170px;
+    border: 1.5px solid #f2f2f2;
+    border-right: none !important;
     padding-left: 15px;
-    font-family: "Raleway";
-    font-weight: bolder;
+    margin-right: 0px;
   }
 
-  input[type="submit"] {
+  form input[type="submit"] {
     height: 29.7px;
+    width: 15px;
     border: 1px solid transparent;
-    border-radius: 0px 9px 9px 0px;
+    border-radius: 9px;
     color: white;
     background-color: #0065fc;
     padding: 5px 15px;
-    margin-left: -6px;
+
     font-family: "Raleway";
     cursor: pointer;
   }
 
   input:focus {
-    outline: none;
+    outline: none; /*enlève les bordures du form au clic*/
   }
 
   .filtre {
