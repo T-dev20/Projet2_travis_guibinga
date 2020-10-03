@@ -79,10 +79,15 @@ body {
     font-weight: bold;
   }
 
-  #enPlein {
-    display: inline-block;
-    position: relative;
-    margin-left: 5px;
+  .enPlenCville {
+    display: flex;
+    /*background-color: green;*/
+    margin-left: 35px;
+    margin-bottom: 12px;
+  }
+
+  .enPlenCville p {
+    margin-top: 2px;
   }
 
   .box {
