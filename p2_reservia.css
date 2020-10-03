@@ -127,8 +127,10 @@ body {
     border-radius: 9px;
     color: white;
     background-color: #0065fc;
-    padding: 5px 15px;
-
+    padding: 5px 15px 7px;
+    background-image: url(icônes/search-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
     font-family: "Raleway";
     cursor: pointer;
   }
