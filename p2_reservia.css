@@ -79,6 +79,12 @@ body {
     font-weight: bold;
   }
 
+  #enPlein {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+  }
+
   .box {
     display: flex;
     /*border: brown 1px dotted;*/
