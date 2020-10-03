@@ -24,107 +24,57 @@ body {
 
   header {
     display: inherit;
-    border: 0.5px solid blue;
     height: auto;
+    /*border: 0.5px solid green;*/
   }
 
   header img {
-    background-color: yellow;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
     height: 37px;
-  }
-
-  nav {
-    font-size: 14px;
-    margin-top: -12px;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-around;
   }
 
   nav a {
     color: #0065fc;
     display: block;
-    padding: 40px 15px;
-    border-top: 2px solid transparent;
-  }
-
-  /*menu principal : onglets hébergement et activités*/
-  .heberg_acti {
-    color: black;
-    opacity: 0.8;
-  }
-
-  .heberg_acti:hover {
-    color: #0065fc;
-    border-top: solid 2px #0065fc;
+    border-top-style: none !important; /*removing top border */
   }
 
   /*menu principal : onglets hébergement et activités*/
   .heberg_acti {
     display: block;
     position: absolute;
-    margin-left: -250px;
-    margin-right: 255px;
-    font-size: medium;
+    margin-left: -472px;
+    font-size: small;
     text-align: center;
-    margin-top: 85px;
-    background-color: blueviolet;
+    margin-top: 105px;
     color: black;
     opacity: 0.8;
     padding: 0px 15px 10px;
-    width: 27%;
-    border-bottom: 2px solid transparent;
+    width: 23.1%;
+    border-bottom: 3px solid #aca3a3;
   }
-
-  .headMenu {
-    display: block;
-    position: absolute;
-    margin-right: 500.3px;
-  }
-
-  /*les deux onglets principals
-  .headMenu {
-    display: block;
-    position: absolute;
-    margin-left: -155.3px;
-    font-size: medium;
-    text-align: center;
-    margin-top: 95px;
-    padding: 0px 20px 5px 20px;
-    width: 40%;
-    height: 22px;
-    border-bottom: 2px solid transparent;
-    margin-right: -55px;
-  }
-
-  .headMenuH {
-    display: block;
-    position: absolute;
-    margin-left: -535px;
-    font-size: medium;
-    text-align: center;
-    margin-top: 95px;
-    padding: 0px 20px 5px 20px;
-    width: 40%;
-    height: 22px;
-    border-bottom: 2px solid transparent;
-    margin-right: -55px;
-  }*/
 
   .heberg_acti:hover {
     color: #0065fc;
-    border-top: transparent 2px #0065fc;
+    border-bottom: solid 3px #0065fc;
+  }
+
+  /*classe du li contenant l'onglet activité*/
+  .headMenu {
+    margin-right: -567px;
   }
 
   .sinscrire {
+    padding: inherit;
+    margin-top: 45px;
+    margin-right: -70px;
     font-weight: bold;
   }
 
   .h1_apres_logo {
-    font-size: large;
+    margin-top: 75px;
+    font-size: medium;
     font-weight: bold;
   }
 
