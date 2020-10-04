@@ -44,14 +44,14 @@ body {
   .heberg_acti {
     display: block;
     position: absolute;
-    margin-left: -472px;
+    margin-left: -455px;
     font-size: small;
     text-align: center;
     margin-top: 105px;
     color: black;
     opacity: 0.8;
     padding: 0px 15px 10px;
-    width: 23.1%;
+    width: 30%;
     border-bottom: 3px solid #aca3a3;
   }
 
@@ -62,7 +62,7 @@ body {
 
   /*classe du li contenant l'onglet activité*/
   .headMenu {
-    margin-right: -567px;
+    margin-right: -525px;
   }
 
   .sinscrire {
@@ -125,12 +125,13 @@ body {
     width: 15px;
     border: 1px solid transparent;
     border-radius: 9px;
-    color: white;
+    color: transparent; /*texte "rechercher" effacer*/
     background-color: #0065fc;
     padding: 5px 15px 7px;
     background-image: url(icônes/search-solid.svg);
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 17px;
+    background-position: center;
     font-family: "Raleway";
     cursor: pointer;
   }
