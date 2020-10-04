@@ -152,21 +152,41 @@ body {
   }
 
   .filtre ul {
-    background-color: tomato;
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 7px;
   }
 
   .filtre li {
-    margin-bottom: 20px;
-    height: 10%;
+    height: 13%;
   }
 
   .li_economic {
     width: 29%;
+  }
+
+  .li_familial {
+    width: 19%;
+    display: inline-block;
+    position: relative;
+    left: 157px;
+    top: -47px;
+  }
+
+  .li_romantic {
+    width: 27.7%;
+    display: inline-block;
+    position: relative;
+    top: -47px;
+  }
+
+  .li_animals {
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    top: -47px;
   }
 
   .filtre li:hover {
@@ -222,7 +242,7 @@ body {
 
   .plusDe500Logem {
     /*border: 1px solid beige;*/
-    margin-top: 250px;
+    margin-top: 140px;
     height: 25px;
     display: flex;
   }
