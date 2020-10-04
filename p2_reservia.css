@@ -194,57 +194,10 @@ body {
     transition: 10ms;
   }
 
-  .filtre a:hover {
-    color: white;
-    font-weight: normal;
-    transition: 10ms;
-  }
-
-  .icone_filtre_eco {
-    margin-left: -22px;
-    margin-right: 10px;
-    color: #0065fc;
-    background-color: #deebff;
-    padding: 8px 8px 7px;
-    border: 1px solid transparent;
-    border-radius: 100%;
-  }
-
-  .icone_filtre_fam {
-    margin-left: -22px;
-    margin-right: 10px;
-    color: #0065fc;
-    background-color: #deebff;
-    padding: 8px 10px 7px 10px;
-    border: 1px solid transparent;
-    border-radius: 100%;
-  }
-
-  .icone_filtre_Rom {
-    margin-left: -22px;
-    margin-right: 10px;
-    color: #0065fc;
-    background-color: #deebff;
-    padding: 8px 10px 7px 10px;
-    border: 1px solid transparent;
-    border-radius: 100%;
-  }
-
-  .icone_filtre_anim {
-    margin-left: -22px;
-    margin-right: 10px;
-    color: #0065fc;
-    background-color: #deebff;
-    padding: 8px 9px 7px;
-    border: 1px solid transparent;
-    border-radius: 100%;
-  }
-
   .plusDe500Logem {
     /*border: 1px solid beige;*/
     margin-top: 140px;
-    height: 25px;
-    display: flex;
+    margin-left: 32px;
   }
 
   .text_plusDe500 {
@@ -252,18 +205,9 @@ body {
     margin-top: 3px;
   }
 
-  .ico_info {
-    font-size: 8px;
-    margin-right: 10px;
-    color: #0065fc;
-    background-color: white;
-    padding: 5px 8px;
-    border: solid 3px #f2f2f2;
-    border-radius: 100%;
-  }
-
   #section1 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -276,7 +220,7 @@ body {
   }
 
   .activite-hebergement_titles {
-    font-size: x-large;
+    font-size: large;
     margin-top: 45px;
     margin-left: 37px;
   }
@@ -286,7 +230,7 @@ body {
     width: 95%;
     height: 500px;
     display: grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(1, 250px);
     grid-gap: 1.5em;
     grid-auto-rows: 12.5em;
     margin-left: 35px;
