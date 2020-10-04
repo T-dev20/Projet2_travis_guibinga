@@ -165,6 +165,10 @@ body {
     height: 10%;
   }
 
+  .li_economic {
+    width: 29%;
+  }
+
   .filtre li:hover {
     background-color: #0065fc;
     transition: 10ms;
