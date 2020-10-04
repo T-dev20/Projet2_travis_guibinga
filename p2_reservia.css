@@ -136,23 +136,22 @@ body {
     cursor: pointer;
   }
 
-  input:focus {
-    outline: none; /*enlève les bordures du form au clic*/
-  }
-
   .filtre {
     margin-top: 15px;
     height: 65px;
   }
 
   .filtre p {
-    margin-top: 22px;
+    display: inline-block;
+    margin-top: -15px;
+    margin-left: 35px;
     font-weight: bold;
   }
 
   .filtre,
   .filtre ul {
     display: flex;
+    flex-direction: column;
   }
 
   .filtre li {
