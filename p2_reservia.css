@@ -237,54 +237,46 @@ body {
   }
 
   aside .blocs_aside h2 {
-    background-color: khaki;
     display: inline-block;
     position: relative;
     font-size: medium;
     font-weight: bolder;
-    top: -138px;
+    top: -143px;
     left: 35px;
   }
 
+  .blocs_aside .TxtHotSoleil {
+    left: 22px;
+  }
+
+  .blocs_aside .TxtHotToutBleu {
+    left: 30px;
+  }
+
   .aside_hebergement div p {
-    background-color: khaki;
     display: inline-block;
     position: relative;
-    top: -50px;
-    left: 35px;
+    top: -63px;
+    left: 25px;
+  }
+
+  .blocs_aside .paragWith128 {
+    left: 20.5px;
+  }
+
+  .blocs_aside .paragWith71 {
+    left: 22px;
   }
 
   .strongEuroAside {
     margin-right: -15px;
   }
 
-  .blocs_aside img {
-    width: 42%;
-    height: 93.2%;
-    border-radius: 15px 0px 0px 15px;
-    margin: 5px 0px 0px 5px;
-    object-fit: cover;
-  }
-
   .bloc_etoiles_aside span {
     display: inline-block;
     position: relative;
-    right: -20px;
+    right: -24px;
     top: -65px;
-  }
-
-  /*étoiles de l'aside*/
-  .bloc_etoiles_aside {
-    float: right;
-    margin-right: 118px;
-    margin-top: -28px;
-  }
-
-  .ico_chartLine {
-    float: right;
-    font-size: larger;
-    margin-top: -23px;
-    margin-right: 35px;
   }
 
   #section_hebergement {
