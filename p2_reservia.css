@@ -380,6 +380,9 @@ body {
   #divs_activites div {
     margin-bottom: -15px;
     height: 200px;
+    width: 85.6%;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 15px;
     box-shadow: 1px 3px 6px #aca3a3;
   }
