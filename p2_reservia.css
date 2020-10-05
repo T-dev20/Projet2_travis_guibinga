@@ -240,10 +240,6 @@ body {
     margin-right: auto;
   }
 
-  /* aside .blocs_aside {
-    margin-top: -25px;
-  }*/
-
   aside .blocs_aside h2 {
     display: inline-block;
     position: relative;
@@ -287,44 +283,32 @@ body {
     top: -65px;
   }
 
-  #section_hebergement {
-    border: 1px solid transparent;
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    width: auto;
+  #section1 > #section_hebergement {
+    width: 100%;
     height: auto;
+    background-color: white;
+  }
+
+  #section1 .article_hebergement {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  #section1 .article_hebergement div {
+    width: 87%;
+    box-shadow: 1px 3px 6px #aca3a3;
   }
 
   #section_hebergement > h2 {
-    font-size: medium;
+    font-size: large;
+    margin-bottom: -6px;
   }
 
   .activite-hebergement_titles {
     font-size: large;
     margin-top: 45px;
     margin-left: 37px;
-  }
-
-  .article_hebergement {
-    /*border: blue 1px dotted;*/
-    width: 95%;
-    height: 500px;
-    display: grid;
-    grid-template-columns: repeat(1, 250px);
-    grid-gap: 1.5em;
-    grid-auto-rows: 12.5em;
-    margin-left: 35px;
-    margin-top: 25px;
-  }
-
-  .article_hebergement div {
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    width: 250px;
-    height: 200px;
-    border-radius: 15px;
-    color: black;
   }
 
   /*effets au survol sur les contenus d'img*/
@@ -368,126 +352,40 @@ body {
     transition: 350ms;
   }
 
-  .article_hebergement img {
-    width: 96.2%;
-    height: 55%;
-    border-radius: 15px 15px 0px 0px;
-    margin: 5px 0px 0px 5px;
-    object-fit: cover;
+  #section_activité {
+    margin-top: 900px;
+    margin-bottom: 75px;
   }
 
-  .article_hebergement h2 {
-    font-size: medium;
-    font-weight: bolder;
-    margin-top: 5px;
-    margin-left: 20px;
-  }
-
-  .article_hebergement div p {
-    font-size: smaller;
-    opacity: 0.8;
-    margin-top: -8px;
-    margin-bottom: 3px;
-    margin-left: 20px;
-  }
-
-  .afficherPlus {
-    font-size: medium;
-    font-weight: bold;
-    height: 35px;
-  }
-
-  .article_hebergement span {
-    font-size: x-small;
-  }
-
-  .bloc_etoiles {
-    margin-left: 20px;
-  }
-
-  .etoiles_bleues {
-    color: #0065fc;
-  }
-
-  .etoiles_grises {
-    color: #f2f2f2;
+  #section_activité > h2 {
+    font-size: large;
   }
 
   /*toute la section activité*/
-  #divs_activites {
-    height: auto;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 2em;
-    grid-column-gap: 2em;
+  #section_activité #divs_activites {
+    display: none; /*pour annuler son display:Grid*/
   }
 
-  #divs_activites h2 {
-    font-size: small;
-    margin-left: 20px;
-    color: black;
+  #section_activité #divs_activites {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
+  }
+
+  #divs_activites > .activite6 {
+    margin-top: 1px;
   }
 
   #divs_activites div {
+    margin-bottom: -15px;
+    height: 200px;
     border-radius: 15px;
     box-shadow: 1px 3px 6px #aca3a3;
   }
 
-  .activite1 {
-    height: 500px;
-    grid-row: 1/3;
-  }
-
-  .activite1 img {
-    height: 90%;
-  }
-
-  .activite2 {
-    height: 280px;
-  }
-
-  .activite2 img {
-    height: 82%;
-  }
-
-  .activite3 {
-    grid-column: 2;
-    grid-row: 2;
-    height: 190px;
-  }
-
-  .activite3 img {
-    height: 73%;
-  }
-
-  .activite4 {
-    grid-column: 3;
-    grid-row: 1/3;
-    height: 500px;
-  }
-
-  .activite4 img {
-    height: 90%;
-  }
-
-  .activite5 {
-    height: 234px;
-  }
-
-  .activite5 img {
-    height: 79%;
-  }
-
-  .activite6 {
-    grid-column: 4;
-    height: 237px;
-    margin-top: -48px;
-  }
-
-  .activite6 img {
-    height: 79%;
+  #divs_activites img {
+    height: 75%;
   }
 
   /*agencement d'images_div-activités*/
@@ -499,6 +397,7 @@ body {
 
   footer {
     background-color: #f2f2f2;
+    margin-top: 250px;
     display: flex;
     justify-content: space-around;
     height: 200px;
