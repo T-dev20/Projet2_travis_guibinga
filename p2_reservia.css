@@ -51,7 +51,7 @@ body {
     color: black;
     opacity: 0.8;
     padding: 0px 15px 10px;
-    width: 30%;
+    width: 38.5%;
     border-bottom: 3px solid #aca3a3;
   }
 
@@ -396,15 +396,20 @@ body {
   }
 
   footer {
-    background-color: #f2f2f2;
-    margin-top: 250px;
-    display: flex;
-    justify-content: space-around;
-    height: 200px;
+    display: none;
   }
 
   footer div {
-    margin-left: -165px;
+    margin-right: 65px;
+  }
+
+  footer {
+    margin-top: 280px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   footer div ul {
@@ -414,12 +419,8 @@ body {
   footer div li {
     margin-top: 10px;
   }
-
-  footer a {
-    color: black;
-    opacity: 0.8;
-  }
-} /*fin responsive-Smartphone*/
+}
+/*fin responsive-Smartphone*/
 
 header {
   display: flex;
