@@ -18,8 +18,8 @@ body {
 /*responsive smartphone*/
 @media all and (max-width: 768px) {
   #pageprincipale {
-    width: 380px;
-    height: auto;
+    max-width: 380px;
+    margin: 0 auto;
   }
 
   header {
