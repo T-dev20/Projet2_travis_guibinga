@@ -231,6 +231,10 @@ body {
     color: black;
   }
 
+  .aside_content {
+    display: flex;
+  }
+
   .aside_hebergement div {
     margin-left: auto;
     margin-right: auto;
