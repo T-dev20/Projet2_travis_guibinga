@@ -16,7 +16,7 @@ body {
 }
 
 /*responsive smartphone*/
-@media all and (max-width: 425px) {
+@media all and (max-width: 768px) {
   #pageprincipale {
     max-width: 380px;
     margin: 0 auto;
