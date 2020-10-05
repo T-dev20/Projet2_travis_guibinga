@@ -231,10 +231,6 @@ body {
     color: black;
   }
 
-  .aside_content {
-    display: flex;
-  }
-
   .aside_hebergement div {
     margin-left: auto;
     margin-right: auto;
@@ -243,18 +239,19 @@ body {
   aside .blocs_aside h2 {
     background-color: khaki;
     display: inline-block;
+    position: relative;
     font-size: medium;
     font-weight: bolder;
-    margin-top: -125px;
-    margin-left: 25px;
+    top: -138px;
+    left: 35px;
   }
 
   .aside_hebergement div p {
     background-color: khaki;
-    font-size: smaller;
-    opacity: 0.8;
-    margin-top: 45px;
-    margin-right: 45px;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: 35px;
   }
 
   .strongEuroAside {
@@ -270,8 +267,10 @@ body {
   }
 
   .bloc_etoiles_aside span {
-    font-size: x-small;
-    float: right;
+    display: inline-block;
+    position: relative;
+    right: -20px;
+    top: -65px;
   }
 
   /*étoiles de l'aside*/
