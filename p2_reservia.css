@@ -210,7 +210,21 @@ body {
     background-color: #f2f2f2;
     border-radius: 0px;
     width: auto;
-    height: auto;
+    height: 615px;
+  }
+
+  aside .div_LinkHotel2 {
+    display: block;
+    position: relative;
+    top: -75px;
+    margin-bottom: 0px;
+  }
+
+  aside .link_divHotel3 {
+    display: block;
+    position: relative;
+    top: -147px;
+    margin-bottom: 0px;
   }
 
   aside .text_lesPlusPop {
@@ -235,6 +249,10 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* aside .blocs_aside {
+    margin-top: -25px;
+  }*/
 
   aside .blocs_aside h2 {
     display: inline-block;
@@ -283,8 +301,12 @@ body {
     border: 1px solid transparent;
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 65%;
-    height: 635px;
+    width: auto;
+    height: auto;
+  }
+
+  #section_hebergement > h2 {
+    font-size: medium;
   }
 
   .activite-hebergement_titles {
