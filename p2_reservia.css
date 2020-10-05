@@ -123,17 +123,16 @@ body {
   form input[type="submit"] {
     height: 29.7px;
     width: 15px;
-    border: 1px solid transparent;
     border-radius: 9px;
     color: transparent; /*texte "rechercher" effacer*/
     background-color: #0065fc;
     padding: 5px 15px 7px;
-    background-image: url(icônes/search-solid.svg);
-    background-repeat: no-repeat;
-    background-size: 17px;
-    background-position: center;
-    font-family: "Raleway";
-    cursor: pointer;
+  }
+
+  .ico_search {
+    margin-left: -23px;
+    margin-top: 5.5px;
+    color: white;
   }
 
   .filtre {
