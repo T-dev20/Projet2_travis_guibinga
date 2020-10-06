@@ -236,6 +236,17 @@ body {
     margin-bottom: 0px;
   }
 
+  /*pour ramener les div de l'aside vers la gauche*/
+  aside a {
+    display: block;
+    position: relative;
+    left: -5px;
+  }
+
+  aside .ico_chartLine {
+    margin-right: 45px;
+  }
+
   .aside_hebergement div {
     margin-left: auto;
     margin-right: auto;
