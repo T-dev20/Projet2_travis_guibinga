@@ -129,7 +129,8 @@ body {
     padding: 5px 15px 7px;
   }
 
-  .ico_search {
+  form .ico_search {
+    color: inherit;
     margin-left: -23px;
     margin-top: 5.5px;
     color: white;
@@ -524,10 +525,9 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/*
 .ico_search {
-  display: none;
-}*/
+  color: transparent;
+}
 
 input:focus {
   outline: none;
