@@ -16,10 +16,9 @@ body {
 }
 
 /*responsive smartphone*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 430px) {
   #pageprincipale {
-    max-width: 380px;
-    margin: 0 auto;
+    width: auto;
   }
 
   header {
@@ -240,7 +239,7 @@ body {
   aside a {
     display: block;
     position: relative;
-    left: -5px;
+    left: -8px;
   }
 
   aside .ico_chartLine {
