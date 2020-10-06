@@ -392,33 +392,20 @@ body {
     height: 75%;
   }
 
-  /*agencement d'images_div-activités*/
-  #divs_activites img {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-  }
-
-  footer div {
-    margin-right: 65px;
-  }
-
   footer {
-    height: inherit;
     margin-top: 280px;
-    height: 1000px;
+    padding: 25px 0px 25px 35px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  footer div ul {
-    margin-left: -38px;
-  }
-
-  footer div li {
-    margin-top: 10px;
+  footer .aPropos,
+  .nosHebergement,
+  .assistance {
+    margin-left: inherit;
+    margin-right: -350px;
   }
 }
 /*fin responsive-Smartphone*/
