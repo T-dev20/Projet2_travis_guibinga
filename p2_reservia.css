@@ -135,7 +135,9 @@ body {
     color: white;
   }
 
-  .filtre {
+  div .filtre {
+    background-color: khaki;
+    height: inherit;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -151,7 +153,8 @@ body {
   }
 
   .filtre ul {
-    height: 250px;
+    background-color: lawngreen;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -163,11 +166,13 @@ body {
   }
 
   .li_economic {
-    width: 30.5%;
+    width: 31%;
+    display: inline-block;
+    position: relative;
   }
 
   .li_familial {
-    width: 20.1%;
+    width: 20.7%;
     display: inline-block;
     position: relative;
     left: 157px;
@@ -175,7 +180,7 @@ body {
   }
 
   .li_romantic {
-    width: 30%;
+    width: 31%;
     display: inline-block;
     position: relative;
     top: -47px;
