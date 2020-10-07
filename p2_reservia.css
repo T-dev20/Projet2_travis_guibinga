@@ -43,8 +43,8 @@ body {
   .heberg_acti {
     display: block;
     position: absolute;
-    margin-left: -468px;
-    width: 45.3%;
+    margin-left: -464px;
+    width: 42.95%;
     font-size: small;
     text-align: center;
     margin-top: 105px;
@@ -56,7 +56,7 @@ body {
 
   /*classe du li contenant l'onglet activité*/
   .headMenu {
-    margin-right: -600px;
+    margin-right: -572px;
   }
 
   .heberg_acti:hover {
