@@ -410,7 +410,7 @@ body {
   footer {
     margin-top: 340px;
     padding: 25px 0px 25px 35px;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
