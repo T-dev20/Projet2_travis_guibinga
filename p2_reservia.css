@@ -418,6 +418,97 @@ body {
     font-size: 0.9em;
     text-align: center;
   }
+
+  #section1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #section1 > #section_hebergement {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+  }
+
+  #section1 .article_hebergement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  #section1 .article_hebergement div {
+    width: 100%;
+    box-shadow: 1px 3px 6px #aca3a3;
+  }
+
+  #section1 > aside {
+    margin-top: 38px;
+    background-color: white;
+    border-radius: 0px;
+    width: auto;
+    height: 615px;
+  }
+
+  aside #aside_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside .blocs_aside {
+    box-shadow: 1px 3px 6px #aca3a3;
+  }
+
+  /*Conteneurs de l'aside*/
+  aside a {
+    display: block;
+    position: relative;
+    left: 24px;
+  }
+
+  aside .ico_chartLine {
+    margin-right: 70px;
+  }
+
+  aside .text_lesPlusPop {
+    margin-left: 65px;
+  }
+
+  aside .blocs_aside h2 {
+    display: inline-block;
+    position: relative;
+    font-size: medium;
+    font-weight: bolder;
+    top: 10px;
+    left: 15px;
+  }
+
+  aside .blocs_aside p {
+    display: inline-block;
+    position: relative;
+    bottom: -25px;
+  }
+
+  aside .blocs_aside .TxtHotSoleil {
+    left: 0px;
+  }
+
+  aside .blocs_aside .TxtHotToutBleu {
+    left: 7px;
+  }
+
+  aside .div_LinkHotel2 h2 {
+    left: 13px;
+  }
+
+  aside .link_divHotel3 p {
+    left: 3.5px;
+  }
+
+  aside .blocs_aside img {
+    width: 50%;
+  }
 }
 
 header {
