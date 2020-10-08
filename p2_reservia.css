@@ -327,47 +327,6 @@ body {
     margin-left: 37px;
   }
 
-  /*effets au survol sur les contenus d'img*/
-  .article_hebergement div::after {
-    content: " ";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: 200ms;
-    border-radius: 15px;
-    background-color: #deebff;
-  }
-
-  .article_hebergement div:hover::after {
-    transform: scaleY(1);
-    transition: 350ms;
-  }
-
-  .blocs_aside::after {
-    content: " ";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: 200ms;
-    border-radius: 15px;
-    background-color: #deebff;
-  }
-
-  .blocs_aside:hover::after {
-    transform: scaleX(1); /*l'effet rempli tout le bloc horizontalement*/
-    transition: 350ms;
-  }
-
   #section_activité {
     margin-top: 900px;
     margin-bottom: 75px;
@@ -435,6 +394,29 @@ body {
     /*border: brown 1px dotted;*/
     width: 45%;
     height: 29.5px;
+  }
+
+  .filtre {
+    display: flex;
+    margin-top: 15px;
+    height: 65px;
+  }
+
+  .filtre p {
+    margin-top: 22px;
+    font-weight: bold;
+  }
+
+  .filtre ul {
+    display: flex;
+  }
+
+  .filtre a {
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
   }
 }
 
