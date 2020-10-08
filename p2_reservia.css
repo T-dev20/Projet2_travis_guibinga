@@ -425,6 +425,19 @@ body {
 }
 /*fin responsive-Smartphone*/
 
+@media all and (max-width: 768px) {
+  #pageprincipale {
+    width: auto;
+  }
+
+  div .box {
+    display: flex;
+    /*border: brown 1px dotted;*/
+    width: 45%;
+    height: 29.5px;
+  }
+}
+
 header {
   display: flex;
   justify-content: space-between;
