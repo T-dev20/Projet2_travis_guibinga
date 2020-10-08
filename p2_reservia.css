@@ -509,6 +509,56 @@ body {
   aside .blocs_aside img {
     width: 50%;
   }
+
+  #section_activité #divs_activites {
+    display: none;
+  }
+
+  #section_activité #divs_activites {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #divs_activites > .activite6 {
+    margin-top: 1px;
+  }
+
+  #divs_activites div {
+    margin-bottom: -15px;
+    height: 200px;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px #aca3a3;
+  }
+
+  #divs_activites img {
+    height: 75%;
+  }
+
+  #section_activité h2 {
+    margin-left: 20px;
+    color: black;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding: 25px 0px 25px 35px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer .aPropos,
+  .nosHebergement,
+  .assistance {
+    margin-left: inherit;
+    margin-right: 35px;
+  }
 }
 
 header {
