@@ -17,7 +17,8 @@ body {
 
 /*responsive smartphone*/
 @media all and (max-width: 430px) {
-  #pageprincipale {
+  body #pageprincipale {
+    width: inherit;
     width: auto;
   }
 
@@ -240,13 +241,6 @@ body {
     margin-bottom: 0px;
   }
 
-  /*pour ramener les div de l'aside vers la gauche*/
-  aside a {
-    display: block;
-    position: relative;
-    left: -8px;
-  }
-
   aside .ico_chartLine {
     margin-right: 45px;
   }
@@ -299,20 +293,39 @@ body {
     top: -65px;
   }
 
+  #section1 {
+    background-color: lightseagreen;
+    height: auto;
+  }
+
   #section1 > #section_hebergement {
+    border: 1px solid blue;
     width: 100%;
     height: auto;
     background-color: white;
+    background-color: lawngreen;
   }
 
+  article a {
+    background-color: rgb(109, 143, 75);
+    width: 92.5%;
+  }
+
+  /*conteneur principal de tous les div*/
   #section1 .article_hebergement {
+    width: 90%;
+    height: inherit;
+    margin-left: 35px;
+    margin-top: 25px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    background-color: rosybrown;
   }
 
   #section1 .article_hebergement div {
-    width: 87%;
+    width: 100%;
     box-shadow: 1px 3px 6px #aca3a3;
   }
 
@@ -328,8 +341,9 @@ body {
   }
 
   #section_activité {
-    margin-top: 900px;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    height: auto;
+    background-color: lawngreen;
   }
 
   #section_activité > h2 {
@@ -342,10 +356,12 @@ body {
   }
 
   #section_activité #divs_activites {
+    background-color: lightcoral;
+    height: inherit;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 1000px;
   }
 
   #divs_activites > .activite6 {
@@ -798,7 +814,6 @@ input:focus {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   grid-gap: 1.5em;
-  grid-auto-rows: 12.5em;
   margin-left: 35px;
   margin-top: 25px;
 }
@@ -988,6 +1003,10 @@ input:focus {
   font-size: larger;
   margin-top: -23px;
   margin-right: 35px;
+}
+
+#section_activité {
+  height: auto;
 }
 
 /*toute la section activité*/
