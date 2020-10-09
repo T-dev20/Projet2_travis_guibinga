@@ -294,20 +294,16 @@ body {
   }
 
   #section1 {
-    background-color: lightseagreen;
     height: auto;
   }
 
   #section1 > #section_hebergement {
-    border: 1px solid blue;
     width: 100%;
     height: auto;
     background-color: white;
-    background-color: lawngreen;
   }
 
   article a {
-    background-color: rgb(109, 143, 75);
     width: 92.5%;
   }
 
@@ -321,7 +317,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
-    background-color: rosybrown;
   }
 
   #section1 .article_hebergement div {
@@ -343,7 +338,6 @@ body {
   #section_activité {
     margin-top: 50px;
     height: auto;
-    background-color: lawngreen;
   }
 
   #section_activité > h2 {
@@ -356,7 +350,6 @@ body {
   }
 
   #section_activité #divs_activites {
-    background-color: lightcoral;
     height: inherit;
     height: auto;
     display: flex;
@@ -383,7 +376,7 @@ body {
   }
 
   footer {
-    margin-top: 340px;
+    margin-top: 80px;
     padding: 25px 0px 25px 35px;
     width: auto;
     display: flex;
@@ -398,7 +391,110 @@ body {
     margin-right: -350px;
   }
 }
-/*fin responsive-Smartphone*/
+/*fin responsive-Smartphone1*/
+
+@media all and (min-width: 397px) and (max-width: 480px) {
+  #section1 > aside {
+    margin-top: 38px;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+    width: auto;
+    height: 615px;
+  }
+
+  .heberg_acti {
+    display: block;
+    position: absolute;
+    margin-left: -505px;
+    width: 45%;
+    font-size: small;
+    text-align: center;
+    margin-top: 105px;
+    color: black;
+    opacity: 0.8;
+    padding: 0px 15px 10px;
+    border-bottom: 3px solid #aca3a3;
+  }
+
+  .li_familial {
+    width: 18%;
+    display: inline-block;
+    position: relative;
+    left: 177px;
+    top: -47px;
+  }
+
+  /*classe du li contenant l'onglet activité*/
+  .headMenu {
+    margin-right: -642px;
+  }
+
+  .headMenuH {
+    margin-left: -22.8px;
+  }
+
+  aside .text_lesPlusPop {
+    font-size: large;
+    width: 60%;
+    margin-left: 35px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
+
+  aside .div_LinkHotel2 {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin-bottom: 0px;
+  }
+
+  aside .link_divHotel3 {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin-bottom: 0px;
+  }
+
+  aside .ico_chartLine {
+    margin-right: 45px;
+  }
+
+  .aside_hebergement div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  aside .blocs_aside h2 {
+    display: inline-block;
+    position: relative;
+    font-size: medium;
+    font-weight: bolder;
+    top: 0px;
+    left: 35px;
+  }
+
+  .blocs_aside .TxtHotSoleil {
+    left: 22px;
+  }
+
+  .blocs_aside .TxtHotToutBleu {
+    left: 30px;
+  }
+
+  .aside_hebergement div p {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 25px;
+  }
+
+  .bloc_etoiles_aside span {
+    display: inline-block;
+    position: relative;
+    right: -24px;
+    top: 0px;
+  }
+}
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   #pageprincipale {
