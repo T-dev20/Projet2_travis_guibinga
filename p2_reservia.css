@@ -417,11 +417,11 @@ body {
   }
 
   .li_familial {
-    width: 18%;
+    width: 18.5%;
     display: inline-block;
     position: relative;
-    left: 177px;
-    top: -47px;
+    left: 172px;
+    top: -46px;
   }
 
   /*classe du li contenant l'onglet activité*/
