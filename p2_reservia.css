@@ -819,7 +819,7 @@ input:focus {
 
 .filtre a:hover {
   color: white;
-  font-weight: normal;
+  font-weight: bold;
   transition: 10ms;
 }
 
