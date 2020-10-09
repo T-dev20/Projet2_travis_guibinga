@@ -384,7 +384,7 @@ body {
 }
 /*fin responsive-Smartphone*/
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   #pageprincipale {
     width: auto;
   }
@@ -545,7 +545,7 @@ body {
   }
 
   footer {
-    margin-top: 40px;
+    margin-top: 100px;
     padding: 25px 0px 25px 35px;
     width: auto;
     display: flex;
