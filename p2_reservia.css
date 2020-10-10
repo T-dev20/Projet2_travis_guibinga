@@ -17,8 +17,11 @@ body {
 
 /*responsive smartphone*/
 @media all and (max-width: 430px) {
+  body {
+    border: solid rgb(145, 41, 75) 1px;
+  }
+
   body #pageprincipale {
-    width: inherit;
     width: auto;
   }
 
@@ -298,9 +301,10 @@ body {
   }
 
   #section1 > #section_hebergement {
-    width: 100%;
+    width: 90%;
     height: auto;
     background-color: white;
+    border: rgb(73, 119, 27) 1px dashed;
   }
 
   article a {
@@ -337,7 +341,9 @@ body {
 
   #section_activité {
     margin-top: 50px;
+    margin-bottom: 50px;
     height: auto;
+    border: rgb(73, 119, 27) 1px dashed;
   }
 
   #section_activité > h2 {
@@ -376,7 +382,7 @@ body {
   }
 
   footer {
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 25px 0px 25px 35px;
     width: auto;
     display: flex;
