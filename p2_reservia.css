@@ -166,6 +166,7 @@ body {
   }
 
   .filtre li {
+    background-color: lawngreen;
     height: 13%;
   }
 
@@ -191,7 +192,7 @@ body {
   }
 
   .li_animals {
-    width: 42%;
+    width: 42.5%;
     display: inline-block;
     position: relative;
     top: -47px;
