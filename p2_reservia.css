@@ -16,11 +16,7 @@ body {
 }
 
 /*responsive smartphone*/
-@media all and (max-width: 430px) {
-  body {
-    border: solid rgb(145, 41, 75) 1px;
-  }
-
+@media all and (max-width: 480px) {
   body #pageprincipale {
     width: auto;
   }
@@ -318,7 +314,6 @@ body {
     width: 90%;
     height: auto;
     background-color: white;
-    border: rgb(73, 119, 27) 1px dashed;
   }
 
   article a {
@@ -354,10 +349,9 @@ body {
   }
 
   #section_activité {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
     height: auto;
-    border: rgb(73, 119, 27) 1px dashed;
   }
 
   #section_activité > h2 {
@@ -409,112 +403,10 @@ body {
   .assistance {
     margin-left: inherit;
     margin-right: -350px;
+    width: 95%;
   }
 }
 /*fin responsive-Smartphone1*/
-
-@media all and (min-width: 397px) and (max-width: 480px) {
-  #section1 > aside {
-    margin-top: 38px;
-    background-color: #f2f2f2;
-    border-radius: 0px;
-    width: auto;
-    height: 615px;
-  }
-
-  .heberg_acti {
-    display: block;
-    position: absolute;
-    margin-left: -505px;
-    width: 45%;
-    font-size: small;
-    text-align: center;
-    margin-top: 105px;
-    color: black;
-    opacity: 0.8;
-    padding: 0px 15px 10px;
-    border-bottom: 3px solid #aca3a3;
-  }
-
-  .li_familial {
-    width: 18.5%;
-    display: inline-block;
-    position: relative;
-    left: 172px;
-    top: -46px;
-  }
-
-  /*classe du li contenant l'onglet activité*/
-  .headMenu {
-    margin-right: -642px;
-  }
-
-  .headMenuH {
-    margin-left: -22.8px;
-  }
-
-  aside .text_lesPlusPop {
-    font-size: large;
-    width: 60%;
-    margin-left: 35px;
-    margin-top: 45px;
-    margin-bottom: 0px;
-  }
-
-  aside .div_LinkHotel2 {
-    display: block;
-    position: relative;
-    top: 0px;
-    margin-bottom: 0px;
-  }
-
-  aside .link_divHotel3 {
-    display: block;
-    position: relative;
-    top: 0px;
-    margin-bottom: 0px;
-  }
-
-  aside .ico_chartLine {
-    margin-right: 45px;
-  }
-
-  .aside_hebergement div {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  aside .blocs_aside h2 {
-    display: inline-block;
-    position: relative;
-    font-size: medium;
-    font-weight: bolder;
-    top: 0px;
-    left: 35px;
-  }
-
-  .blocs_aside .TxtHotSoleil {
-    left: 22px;
-  }
-
-  .blocs_aside .TxtHotToutBleu {
-    left: 30px;
-  }
-
-  .aside_hebergement div p {
-    display: inline-block;
-    position: relative;
-    top: 0px;
-    left: 25px;
-  }
-
-  .bloc_etoiles_aside span {
-    display: inline-block;
-    position: relative;
-    right: -24px;
-    top: 0px;
-  }
-}
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   #pageprincipale {
@@ -1217,7 +1109,8 @@ footer {
 }
 
 footer div {
-  margin-left: -165px;
+  background-color: green;
+  margin-left: -17 0px;
 }
 
 footer div ul {
