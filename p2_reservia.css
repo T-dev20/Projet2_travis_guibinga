@@ -229,7 +229,7 @@ body {
     border-radius: 0px;
     border: 1px solid transparent;
     width: auto;
-    height: 615px;
+    height: auto;
   }
 
   aside .text_lesPlusPop {
@@ -237,25 +237,23 @@ body {
     width: 60%;
     margin-left: 35px;
     margin-top: 45px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
-  aside .div_LinkHotel2 {
-    display: block;
-    position: relative;
-    top: -74px;
-    margin-bottom: 0px;
+  aside #aside_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  aside .link_divHotel3 {
-    display: block;
-    position: relative;
-    top: -147px;
-    margin-bottom: 0px;
+  aside #aside_content a {
+    height: 180px;
+    margin-top: -15px;
   }
 
   aside .ico_chartLine {
     margin-right: 45px;
+    margin-top: -40px;
   }
 
   .aside_hebergement div {
