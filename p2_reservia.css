@@ -49,7 +49,7 @@ body {
 
   nav ul {
     display: none;
-    margin-top: 35px;
+    margin-top: 50px;
   }
 
   nav li {
@@ -88,34 +88,25 @@ body {
     display: inline-block;
     position: absolute;
     padding: inherit;
-    margin-top: -40px;
+    margin-top: -53px;
     margin-left: -105px;
     font-weight: bold;
   }
 
   .h1_apres_logo {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 35px;
     width: 70%;
     font-weight: bold;
   }
 
   .enPlenCville {
-    display: flex;
-    /*background-color: green;*/
     margin-left: 35px;
     margin-bottom: 12px;
   }
 
-  .enPlenCville p {
-    margin-top: 2px;
-  }
-
   .box {
-    display: flex;
-    width: auto;
-    /*border: brown 1px dotted;*/
-    height: auto;
+    border: none !important;
     margin-left: 35px;
   }
 
@@ -159,18 +150,17 @@ body {
 
   div .filtre {
     /*background-color: khaki;*/
-    height: inherit;
+    height: inherit !important;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-left: -7px;
     height: auto;
   }
 
   .filtre .texte_filtre {
     display: inline-block;
     margin-top: 10px;
-    margin-left: 45px;
+    margin-left: 40px;
     font-weight: bold;
   }
 
@@ -185,6 +175,11 @@ body {
 
   .filtre li {
     height: 13%;
+    margin-left: -5px;
+  }
+
+  .filtre li a {
+    font-size: 0.9em;
   }
 
   .li_economic {
@@ -764,8 +759,8 @@ nav a {
 
 .box {
   display: flex;
-  /*border: brown 1px dotted;*/
-  width: 35%;
+  border: brown 1px dotted;
+  width: auto;
   height: 29.5px;
 }
 
