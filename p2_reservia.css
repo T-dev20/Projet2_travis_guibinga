@@ -27,32 +27,42 @@ body {
 
   header {
     display: inherit;
-    height: auto;
-    /*border: 0.5px solid green;*/
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid green;*/
   }
 
   header img {
     margin-top: 5px;
-    margin-left: 45px;
+    margin-left: 25px;
     height: 37px;
   }
 
+  /*nav {
+    border: 0.5px solid red;
+  }*/
+
   nav a {
     color: #0065fc;
-    display: block;
     border-top-style: none !important; /*removing top border */
+  }
+
+  nav ul {
+    display: none;
+    margin-top: 35px;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
   }
 
   /*menu principal : onglets hébergement et activités*/
   .heberg_acti {
-    display: block;
-    position: absolute;
-    margin-left: -464px;
-    width: 42.95%;
     font-size: small;
     text-align: center;
-    margin-top: 105px;
     color: black;
+    width: 94.3%;
     opacity: 0.8;
     padding: 0px 15px 10px;
     border-bottom: 3px solid #aca3a3;
@@ -60,7 +70,13 @@ body {
 
   /*classe du li contenant l'onglet activité*/
   .headMenu {
-    margin-right: -572px;
+    left: -20px;
+    width: 60%;
+  }
+
+  .headMenuH {
+    width: 60%;
+    left: -40px;
   }
 
   .heberg_acti:hover {
@@ -69,9 +85,11 @@ body {
   }
 
   .sinscrire {
+    display: inline-block;
+    position: absolute;
     padding: inherit;
-    margin-top: 45px;
-    margin-right: -75px;
+    margin-top: -40px;
+    margin-left: -105px;
     font-weight: bold;
   }
 
@@ -166,7 +184,6 @@ body {
   }
 
   .filtre li {
-    background-color: lawngreen;
     height: 13%;
   }
 
@@ -219,6 +236,7 @@ body {
     margin-top: 38px;
     background-color: #f2f2f2;
     border-radius: 0px;
+    border: 1px solid transparent;
     width: auto;
     height: 615px;
   }
