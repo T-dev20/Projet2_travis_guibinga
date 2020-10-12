@@ -649,7 +649,6 @@ nav a {
 
 .box {
   display: flex;
-  border: brown 1px dotted;
   width: auto;
   height: 29.5px;
 }
