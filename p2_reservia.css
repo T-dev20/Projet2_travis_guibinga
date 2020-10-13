@@ -58,7 +58,7 @@ body {
     font-size: small;
     text-align: center;
     color: black;
-    width: 94.3%;
+    width: 100%;
     opacity: 0.8;
     padding: 0px 15px 10px;
     border-bottom: 3px solid #aca3a3;
@@ -72,7 +72,7 @@ body {
 
   .headMenuH {
     width: 60%;
-    left: -40px;
+    left: -50px;
   }
 
   .heberg_acti:hover {
@@ -225,7 +225,7 @@ body {
 
   #section1 > aside {
     margin-top: 38px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     background-color: #f2f2f2;
     border-radius: 0px;
     border: 1px solid transparent;
@@ -261,6 +261,7 @@ body {
   #section1 > #section_hebergement {
     width: 100%;
     height: auto;
+    margin-bottom: -10px;
     background-color: white;
   }
 
