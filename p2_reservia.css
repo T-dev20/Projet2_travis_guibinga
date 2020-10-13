@@ -145,7 +145,6 @@ body {
   }
 
   div .filtre {
-    background-color: khaki;
     height: inherit !important;
     display: flex;
     flex-direction: column;
@@ -244,12 +243,12 @@ body {
   }
 
   aside .aside_content_txtEtetoiles h2 {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 
   #aside_content p {
-    margin-bottom: 55px;
-    font-size: 0.8em;
+    margin-bottom: inherit;
+    font-size: 0.75em;
   }
 
   #section1 {
@@ -897,6 +896,7 @@ input:focus {
 #aside_content .aside_content_txtEtetoiles {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 /*blocs contenant les images*/
@@ -930,14 +930,12 @@ input:focus {
 .aside_hebergement div p {
   font-size: smaller;
   opacity: 0.8;
-  margin-top: -5px;
-  margin-bottom: 45px;
+  margin-top: -25px;
 }
 
 /*étoiles de l'aside*/
 .bloc_etoiles_aside span {
   font-size: x-small;
-  float: left;
 }
 
 .ico_chartLine {
@@ -1044,6 +1042,7 @@ footer {
 
 footer div {
   margin-left: -160px;
+  background-color: green;
 }
 
 footer div ul {
