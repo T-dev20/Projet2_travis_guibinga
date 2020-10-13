@@ -161,11 +161,12 @@ body {
   }
 
   .filtre ul {
-    /*background-color: lawngreen;*/
+    background-color: lawngreen;
     height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 7px;
   }
 
@@ -180,15 +181,15 @@ body {
 
   .li_economic {
     width: 31%;
-    display: inline-block;
-    position: relative;
   }
 
-  .li_familial {
+  .filtre .li_familial {
     width: 20.7%;
+    margin-left: inherit;
     display: inline-block;
     position: relative;
-    left: 157px;
+    margin-left: 5px;
+    right: -157px;
     top: -47px;
   }
 
