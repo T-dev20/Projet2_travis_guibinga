@@ -16,7 +16,7 @@ body {
 }
 
 /*responsive smartphone*/
-@media all and (max-width: 480px) {
+@media all and (max-width: 640px) {
   body #pageprincipale {
     width: auto;
   }
@@ -349,7 +349,7 @@ body {
 }
 /*fin responsive-Smartphone1*/
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1025px) {
   #pageprincipale {
     width: auto;
   }
@@ -438,37 +438,6 @@ body {
 
   aside .text_lesPlusPop {
     margin-left: 65px;
-  }
-
-  aside .blocs_aside h2 {
-    display: inline-block;
-    position: relative;
-    font-size: medium;
-    font-weight: bolder;
-    top: 10px;
-    left: 15px;
-  }
-
-  aside .blocs_aside p {
-    display: inline-block;
-    position: relative;
-    bottom: -25px;
-  }
-
-  aside .blocs_aside .TxtHotSoleil {
-    left: 0px;
-  }
-
-  aside .blocs_aside .TxtHotToutBleu {
-    left: 7px;
-  }
-
-  aside .div_LinkHotel2 h2 {
-    left: 13px;
-  }
-
-  aside .link_divHotel3 p {
-    left: 3.5px;
   }
 
   aside .blocs_aside img {
@@ -1042,7 +1011,6 @@ footer {
 
 footer div {
   margin-left: -160px;
-  background-color: green;
 }
 
 footer div ul {
