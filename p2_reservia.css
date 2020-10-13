@@ -145,7 +145,7 @@ body {
   }
 
   div .filtre {
-    /*background-color: khaki;*/
+    background-color: khaki;
     height: inherit !important;
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@ body {
   .filtre .texte_filtre {
     display: inline-block;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     font-weight: bold;
   }
 
@@ -165,42 +165,40 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 7px;
   }
 
   .filtre li {
     height: 13%;
-    margin-left: -5px;
+    margin-left: -25px;
   }
 
   .filtre li a {
-    font-size: 0.9em;
+    font-size: 0.89em;
   }
 
   .li_economic {
-    width: 31%;
+    width: 34.8%;
   }
 
   .filtre .li_familial {
-    width: 20.7%;
+    width: 24%;
     margin-left: inherit;
     display: inline-block;
     position: relative;
-    margin-left: 5px;
-    right: -157px;
+    right: -150px;
     top: -47px;
   }
 
   .li_romantic {
-    width: 31%;
+    width: 35%;
     display: inline-block;
     position: relative;
     top: -47px;
   }
 
   .li_animals {
-    width: 42.5%;
+    width: 47%;
     display: inline-block;
     position: relative;
     top: -47px;
