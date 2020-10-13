@@ -240,72 +240,17 @@ body {
     margin-bottom: 20px;
   }
 
-  aside #aside_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  aside #aside_content a {
-    height: 180px;
-    margin-top: -15px;
-  }
-
   aside .ico_chartLine {
-    margin-right: 45px;
     margin-top: -40px;
   }
 
-  .aside_hebergement div {
-    margin-left: auto;
-    margin-right: auto;
+  aside .aside_content_txtEtetoiles h2 {
+    font-size: 0.9em;
   }
 
-  aside .blocs_aside {
-    background-color: lawngreen;
-  }
-
-  aside .blocs_aside h2 {
-    display: inline-block;
-    position: relative;
-    font-size: medium;
-    font-weight: bolder;
-    top: -143px;
-    left: 35px;
-  }
-
-  .blocs_aside .TxtHotSoleil {
-    left: 22px;
-  }
-
-  .blocs_aside .TxtHotToutBleu {
-    left: 30px;
-  }
-
-  .aside_hebergement div p {
-    display: inline-block;
-    position: relative;
-    top: -63px;
-    left: 25px;
-  }
-
-  .blocs_aside .paragWith128 {
-    left: 20.5px;
-  }
-
-  .blocs_aside .paragWith71 {
-    left: 22px;
-  }
-
-  .strongEuroAside {
-    margin-right: -15px;
-  }
-
-  .bloc_etoiles_aside span {
-    display: inline-block;
-    position: relative;
-    right: -24px;
-    top: -65px;
+  #aside_content p {
+    margin-bottom: 55px;
+    font-size: 0.8em;
   }
 
   #section1 {
@@ -1004,7 +949,7 @@ input:focus {
   float: right;
   font-size: larger;
   margin-top: -23px;
-  margin-right: 35px;
+  margin-right: 40px;
 }
 
 #section_activité {
@@ -1103,8 +1048,7 @@ footer {
 }
 
 footer div {
-  background-color: green;
-  margin-left: -17 0px;
+  margin-left: -160px;
 }
 
 footer div ul {
