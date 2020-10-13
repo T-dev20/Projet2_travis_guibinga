@@ -161,7 +161,6 @@ body {
   }
 
   .filtre ul {
-    background-color: lawngreen;
     height: 170px;
     display: flex;
     flex-direction: column;
@@ -259,7 +258,7 @@ body {
   }
 
   #section1 > #section_hebergement {
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: white;
   }
@@ -287,13 +286,7 @@ body {
 
   #section_hebergement > h2 {
     font-size: large;
-    margin-bottom: -6px;
-  }
-
-  .activite-hebergement_titles {
-    font-size: large;
-    margin-top: 45px;
-    margin-left: 37px;
+    margin-left: 36.8px;
   }
 
   #section_activité {
