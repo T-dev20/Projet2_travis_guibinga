@@ -718,7 +718,7 @@ input:focus {
 }
 
 .activite-hebergement_titles {
-  font-size: x-large;
+  font-size: 1.3em;
   margin-top: 45px;
   margin-left: 37px;
 }
@@ -844,7 +844,7 @@ input:focus {
 }
 
 .text_lesPlusPop {
-  font-size: x-large;
+  font-size: 1.3em;
   width: 60%;
   margin-left: 35px;
   margin-top: 45px;
