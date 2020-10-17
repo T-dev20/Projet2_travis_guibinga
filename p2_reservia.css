@@ -634,7 +634,7 @@ input:focus {
 
 .filtre li:hover {
   background-color: #0065fc;
-  transition: 10ms;
+  transition: 400ms;
 }
 
 .filtre a:hover {
