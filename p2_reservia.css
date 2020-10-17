@@ -755,14 +755,14 @@ input:focus {
   height: 100%;
   transform: scaleY(0);
   transform-origin: bottom;
-  transition: 200ms;
+  transition: 300ms;
   border-radius: 15px;
   background-color: #deebff;
 }
 
 .article_hebergement div:hover::after {
   transform: scaleY(1);
-  transition: 350ms;
+  transition: 200ms;
 }
 
 .blocs_aside {
@@ -780,14 +780,14 @@ input:focus {
   height: 100%;
   transform: scaleX(0);
   transform-origin: left;
-  transition: 200ms;
+  transition: 300ms;
   border-radius: 15px;
   background-color: #deebff;
 }
 
 .blocs_aside:hover::after {
   transform: scaleX(1); /*l'effet rempli tout le bloc horizontalement*/
-  transition: 350ms;
+  transition: 200ms;
 }
 
 .article_hebergement img {
