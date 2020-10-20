@@ -100,27 +100,23 @@ body {
     margin-bottom: 12px;
   }
 
-  .box {
-    border: none !important;
-    margin-left: 35px;
+  form {
+    width: 90%;
+    margin: auto;
   }
 
-  .box form {
-    display: flex;
-    width: auto;
-  }
-
-  .box img[alt="icone_map"] {
-    width: 10px;
-    border: 1px solid transparent;
+  form .ico_map {
+    width: 3.5%;
+    font-size: 1.2em;
+    border: 1.2px solid #f2f2f2;
     border-radius: 9px 0px 0px 9px;
-    padding: 8px 9px;
+    padding: 15px 12px;
     background-color: #f2f2f2;
   }
 
   input[type="text"] {
-    height: 55px;
-    width: 192px;
+    width: 70%;
+
     border: 1.5px solid #f2f2f2;
     border-right: none !important;
     padding-left: 15px;
@@ -128,18 +124,18 @@ body {
   }
 
   form input[type="submit"] {
-    height: 29.7px;
-    width: 15px;
+    width: 40px;
     border-radius: 9px;
     color: transparent; /*texte "rechercher" effacer*/
     background-color: #0065fc;
     padding: 5px 15px 7px;
+    margin-left: -6px;
   }
 
   form .ico_search {
     color: inherit;
-    margin-left: -23px;
-    margin-top: 5.5px;
+    margin-left: -27px;
+    margin-top: 9px;
     color: white;
   }
 
