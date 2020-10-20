@@ -268,15 +268,11 @@ body {
     background-color: white;
   }
 
-  article a {
-    width: 92.5%;
-  }
-
   /*conteneur principal de tous les div*/
   #section1 .article_hebergement {
-    width: 90%;
+    width: 100%;
     height: inherit;
-    margin-left: 35px;
+    margin-left: 0px;
     margin-top: 25px;
     height: auto;
     display: grid;
@@ -285,13 +281,14 @@ body {
   }
 
   #section1 .article_hebergement div {
-    width: 100%;
+    width: 92%;
+    margin: auto;
     box-shadow: 1px 3px 6px #aca3a3;
   }
 
   #section_hebergement > h2 {
-    font-size: large;
-    margin-left: 37px;
+    font-size: 1.2em;
+    margin-left: 17px;
   }
 
   #section_activité {
