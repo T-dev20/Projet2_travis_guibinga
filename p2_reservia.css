@@ -220,27 +220,36 @@ body {
   #section1 > aside {
     margin-top: 38px;
     margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #f2f2f2;
     border-radius: 0px;
     border: 1px solid transparent;
     width: auto;
-    height: auto;
+  }
+
+  aside #aside_content {
+    margin-bottom: 50px;
+  }
+
+  aside .blocs_aside {
+    width: 92%;
+    margin: auto;
+    margin-top: 1em;
   }
 
   aside .text_lesPlusPop {
-    font-size: large;
+    font-size: 1.2em;
     width: 60%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 45px;
     margin-bottom: 20px;
   }
 
   aside .ico_chartLine {
     margin-top: -40px;
-  }
-
-  aside .aside_content_txtEtetoiles h2 {
-    font-size: 0.85em;
+    margin-right: inherit;
+    margin-right: 22px;
   }
 
   #aside_content p {
