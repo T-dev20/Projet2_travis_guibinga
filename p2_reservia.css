@@ -916,6 +916,11 @@ input:focus {
   margin-right: 40px;
 }
 
+#section_activité > h2 {
+  margin-left: inherit;
+  margin-left: 0px;
+}
+
 #section_activité {
   height: auto;
 }
