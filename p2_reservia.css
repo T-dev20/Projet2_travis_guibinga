@@ -298,8 +298,11 @@ body {
   }
 
   #section_activité > h2 {
-    font-size: large;
-    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+    width: 50%;
+    left: 17px;
   }
 
   /*toute la section activité*/
@@ -322,7 +325,7 @@ body {
   #divs_activites div {
     margin-bottom: -15px;
     height: 200px;
-    width: 85.6%;
+    width: 92%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;
