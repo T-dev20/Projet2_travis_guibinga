@@ -558,22 +558,22 @@ nav a {
   font-weight: bold;
 }
 
-.box {
+form {
   display: flex;
-  width: auto;
-  height: 29.5px;
 }
 
-img[alt="icone_map"] {
-  width: 8px;
-  border: 1px solid transparent;
+form .ico_map {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  font-size: small;
+  border: 1.2px solid #f2f2f2;
   border-radius: 9px 0px 0px 9px;
-  padding: 4px 9px;
+  padding: 9px 12px;
   background-color: #f2f2f2;
 }
 
 input[type="text"] {
-  height: 25.3px;
   border: 1px solid #f2f2f2;
   padding-left: 15px;
   font-family: "Raleway";
@@ -582,13 +582,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  height: 29.7px;
   border: 1px solid transparent;
   border-radius: 0px 9px 9px 0px;
   color: white;
   background-color: #0065fc;
-  padding: 5px 15px;
-  margin-left: -6px;
+  padding: 0px 15px;
   font-family: "Raleway";
   cursor: pointer;
 }
