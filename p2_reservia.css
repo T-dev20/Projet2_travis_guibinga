@@ -348,8 +348,7 @@ body {
   footer .aPropos,
   .nosHebergement,
   .assistance {
-    margin-left: inherit;
-    margin-right: -350px;
+    margin-left: -12.5px;
     width: 95%;
   }
 }
