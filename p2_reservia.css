@@ -884,7 +884,8 @@ input:focus {
 }
 
 .aside_hebergement div {
-  margin-left: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blocs_aside img {
