@@ -162,42 +162,84 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 7px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .filtre li {
-    height: 13%;
-    margin-left: -25px;
+    height: 17%;
+    margin-left: -38px;
   }
 
   .filtre li a {
-    font-size: 0.89em;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    font-size: 1em;
   }
 
   .li_economic {
-    width: 34.8%;
+    width: 40%;
+  }
+
+  .filtre ul .icone_filtre_eco {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    padding: 10.8px;
+    border: 1px solid transparent;
+    border-radius: 50%;
   }
 
   .filtre .li_familial {
-    width: 24%;
+    width: 30%;
     margin-left: inherit;
     display: inline-block;
     position: relative;
-    right: -150px;
-    top: -47px;
+    right: -10px;
+    top: -42px;
+  }
+
+  .filtre ul .icone_filtre_fam {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    padding: 10.8px 13.5px;
+    border: 1px solid transparent;
+    border-radius: 100%;
   }
 
   .li_romantic {
-    width: 35%;
+    width: 36%;
     display: inline-block;
     position: relative;
-    top: -47px;
+    top: -35px;
+  }
+
+  .filtre ul .icone_filtre_Rom {
+    display: inline-block;
+    position: relative;
+    top: -8.5px;
+    padding: 11px 12.5px;
+    border: 1px solid transparent;
+    border-radius: 100%;
   }
 
   .li_animals {
-    width: 47%;
+    width: 50%;
     display: inline-block;
     position: relative;
-    top: -47px;
+    top: -27px;
+  }
+
+  .filtre ul .icone_filtre_anim {
+    display: inline-block;
+    position: relative;
+    top: -8.5px;
+    padding: 11px 12.5px;
+    border: 1px solid transparent;
+    border-radius: 100%;
   }
 
   .plusDe500Logem {
