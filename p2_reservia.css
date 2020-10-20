@@ -244,13 +244,15 @@ body {
 
   .plusDe500Logem {
     /*border: 1px solid beige;*/
-    margin-top: -35px;
-    margin-left: 32px;
+    margin-top: -15px;
+    margin-left: 15px;
   }
 
   .text_plusDe500 {
     font-style: normal;
+    font-size: 0.85em;
     margin-top: 3px;
+    width: 80%;
   }
 
   #section1 {
