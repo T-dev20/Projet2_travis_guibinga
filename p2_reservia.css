@@ -83,21 +83,23 @@ body {
     display: inline-block;
     position: absolute;
     padding: inherit;
-    margin-top: -53px;
-    margin-left: -105px;
+    margin-top: -55px;
+    margin-left: -85px;
     font-weight: bold;
+    font-size: 1.1em;
   }
 
   .h1_apres_logo {
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: 20px;
     width: 80%;
     font-weight: bold;
   }
 
   .enPlenCville {
-    margin-left: 35px;
-    margin-bottom: 12px;
+    margin-left: 20px;
+    font-size: 0.85em;
+    margin-bottom: 32px;
   }
 
   form {
