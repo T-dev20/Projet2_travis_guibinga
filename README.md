@@ -1,4 +1,4 @@
-# PROJET2_OPENCLASSROOMS_TravisGuibinga
+# PROJET2_OPENCLASSROOMS/TravisGuibinga
 
 ## Transformation d'une maquette en site web
 
